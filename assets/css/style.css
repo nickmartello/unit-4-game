@@ -1,0 +1,64 @@
+body {
+background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img(20).jpg");
+background-size: cover; 
+background-repeat: no-repeat;
+height: 100vh;
+}
+   
+
+h1{
+color: white;
+font-size: 2em;
+padding: 20px;
+margin: 10px;
+width: 260px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.theNumbers {
+    height: 100px;
+    width: 500px;
+
+    
+}
+.randomNumber {
+    float: left; 
+    color: white;
+    width: 100px;
+    height: 40px;
+    padding: 20px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 2em;
+}
+.score {
+    float: left;
+    color: white;
+    width: 70px;
+    height: 55px;
+    padding: 20px;
+    padding-top: 5px;
+    margin: 10px;
+    line-height: 25px;
+}
+img {
+    margin-left: 10px;
+    height: 150px;
+    border: 3px gold solid;
+}
+.totalScore {
+    
+    color: white;
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+.scoreCounter {
+    
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+  
