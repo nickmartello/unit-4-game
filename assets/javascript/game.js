@@ -5,9 +5,11 @@ function animalScore() {
     return Math.floor(Math.random() * (12)) + 1;
 }
 $(".randomNumber").text(score());
+
 var goal = 0;
 var wins = 0;
 var losses = 0;
+
 function changeScore() {
     goal += parseInt($(this).text());
 
@@ -15,22 +17,20 @@ function changeScore() {
 
     if (parseInt($(".randomNumber").text()) === goal) {
         wins++;
-        $(".status").text("You Won!");
+        $(".results").text("You Won!");
         $(".wins").text("Wins: " + wins);
         setDefaultValues();
     } else if (parseInt($(".randomNumber").text()) < goal) {
-        $(".status").text("You Lost!");
+        $(".results").text("You Lost!");
         losses++;
         $(".losses").text("Losses: " + losses);
         setDefaultValues();
-       
     }
 }
 $("#chipmunkPic").text(animalScore());
 $("#dogPic").text(animalScore());
 $("#hippoPic").text(animalScore());
 $("#pigPic").text(animalScore());
-
 
 $("#chipmunkPic").on("click", changeScore);
 $("#dogPic").on("click", changeScore);
@@ -46,6 +46,8 @@ function setDefaultValues() {
     $("#hippoPic").text(animalScore());
     $("#pigPic").text(animalScore());
 }
+
+
 
 
 
