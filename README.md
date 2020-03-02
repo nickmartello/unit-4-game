@@ -1,3 +1,6 @@
+to play:  https://nickmartello.github.io/unit-4-game/
+
+
 # FARM GAME
 
 In this game each animal is randomly generated and the goal number is also randomly generated. To start, you click on an animal and a number will appear towards the goal. Each animal has a specified random value. Hit the goal exactly and you win, go over and you LOSE!
